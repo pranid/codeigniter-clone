@@ -1,0 +1,18 @@
+/** AMIS Custom CSS */
+/* Author Praneeth Nidarshan */
+
+.tools > i {
+    cursor: pointer;
+}
+
+@media screen and (min-device-aspect-ratio: 5/4) {
+    .login-page {
+        margin-top: 40%;
+    }
+}
+
+@media screen and (min-device-aspect-ratio: 16/9) {
+    .login-page {
+        margin-top: 10%;
+    }
+}
